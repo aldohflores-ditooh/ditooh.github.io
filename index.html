@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Aldoh Saúl Flores García | Ingeniero, Poeta, Teologo y Estratega</title>
+    <title>Aldoh Saúl Flores García | Ingeniero, Poeta y Estratega</title>
     <meta name="description" content="Sitio oficial de Aldoh Saúl Flores García. Ingeniero Industrial, escritor (Ditooh) y estratega. Perfil ENTP-A enfocado en la integración de razón, arte y movimiento.">
-    <meta name="keywords" content="Aldoh Saúl Flores García, Aldoh Flores, Ditooh, Ingeniero Industrial, Poesía, Inroads México, Estrategia, 3C Metrology">
-    <meta name="author" content="Aldoh Saúl Flores García">
-    <link rel="canonical" href="https://aldohflores-ditooh.github.io/">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23c05838%22>A</text></svg>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,205 +18,81 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Aldoh Saúl Flores García",
-      "givenName": "Aldoh Saúl",
-      "familyName": "Flores García",
       "additionalName": "Ditooh",
-      "jobTitle": ["Ingeniero Industrial", "Escritor", "Poeta", "Teologo", "Estratega"],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "3C Metrology"
-      },
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "Inroads México"
-      },
-      "knowsAbout": ["Ingeniería Industrial", "Mejora de Procesos", "Filosofía", "Teología", "Poesía Contemporánea"],
       "url": "https://aldohflores-ditooh.github.io/",
-      "image": "aldoh-saul-flores-garcia.jpg",
-      "description": "Profesional ENTP-A que integra la ingeniería industrial con la creación literaria. Enfocado en proyectos de expansión internacional (Australia 2027) y autor del poemario 'Yo soy ARTE'.",
+      "image": "https://aldohflores-ditooh.github.io/aldoh-saul-flores-garcia.jpg",
       "sameAs": [
-        "https://www.linkedin.com/in/tu-usuario",
-        "https://www.instagram.com/tu-usuario"
-      ]
+        "https://www.linkedin.com/in/a-saul-flores-garcia",
+        "https://www.instagram.com/asaulflores",
+        "https://www.instagram.com/ditooh.m4lditoh"
+      ],
+      "jobTitle": ["Ingeniero Industrial", "Escritor", "Estratega"],
+      "worksFor": { "@type": "Organization", "name": "3C Metrology" }
     }
     </script>
 
     <style>
-        /* VARIABLES DE DISEÑO - PALETA IDENTITARIA */
         :root {
             --bg-color: #ffffff;
             --text-primary: #1a1a1a;
             --text-secondary: #555555;
-            --accent-terracotta: #c05838; /* Pasión/Acción */
-            --accent-ochre: #b8860b;      /* Sabiduría/Luz */
-            --accent-green: #1b3a3a;      /* Profundidad/Ingeniería */
+            --accent-terracotta: #c05838;
+            --accent-ochre: #b8860b;
+            --accent-green: #1b3a3a;
             --light-gray: #f8f8f8;
             --border-color: #e0e0e0;
         }
 
-        /* RESET & BASICS */
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            line-height: 1.7;
-            overflow-x: hidden;
-        }
-
-        /* TIPOGRAFÍA */
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-primary); line-height: 1.7; overflow-x: hidden; }
         h1, h2, h3, blockquote, .nav-logo { font-family: 'Lora', serif; }
-        
         p { margin-bottom: 1.5rem; font-weight: 300; font-size: 1.05rem; }
-        
-        strong { font-weight: 600; color: var(--text-primary); }
 
         /* NAVEGACIÓN */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border-color);
-            z-index: 1000;
-            padding: 1rem 0;
-        }
-        .nav-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 2rem;
-        }
+        nav { position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-color); z-index: 1000; padding: 1rem 0; }
+        .nav-container { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
         .nav-logo { font-weight: 700; font-size: 1.2rem; text-decoration: none; color: var(--text-primary); }
         .nav-links a { margin-left: 20px; text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; transition: color 0.3s; }
         .nav-links a:hover { color: var(--accent-terracotta); }
 
-        /* HERO SECTION */
-        .hero {
-            height: 90vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 0 2rem;
-            background: linear-gradient(to bottom, #fff, var(--light-gray));
-        }
-        .hero-content { max-width: 800px; animation: fadeIn 1.5s ease-out; }
+        /* HERO ACTUALIZADO CON FOTO */
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 100px 2rem 50px 2rem; background: linear-gradient(to bottom, #fff, var(--light-gray)); }
+        .hero-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; max-width: 1000px; align-items: center; }
         
-        h1 {
-            font-size: clamp(2.5rem, 5vw, 4.5rem);
-            font-weight: 600;
-            letter-spacing: -1px;
-            margin-bottom: 1rem;
-            line-height: 1.1;
+        .hero-image img { 
+            width: 100%; 
+            border-radius: 4px; 
+            box-shadow: 20px 20px 0px var(--accent-green); 
+            filter: grayscale(100%); 
+            transition: 0.5s ease;
         }
-        
-        .hero-roles {
-            font-family: 'Inter', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 0.85rem;
-            color: var(--accent-terracotta);
-            margin-bottom: 2rem;
-            font-weight: 600;
-        }
+        .hero-image img:hover { filter: grayscale(0%); box-shadow: 15px 15px 0px var(--accent-terracotta); }
 
-        .hero-motto {
-            font-size: 1.4rem;
-            font-style: italic;
-            color: var(--text-secondary);
-            border-top: 1px solid var(--accent-ochre);
-            display: inline-block;
-            padding-top: 1.5rem;
-            margin-top: 1rem;
-        }
+        h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 600; margin-bottom: 1rem; line-height: 1.1; }
+        .hero-roles { color: var(--accent-terracotta); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 1rem; display: block; }
+        .hero-motto { font-size: 1.3rem; font-style: italic; color: var(--text-secondary); border-top: 1px solid var(--accent-ochre); padding-top: 1rem; margin-top: 1rem; display: inline-block; }
 
-        /* ESTRUCTURA GENERAL DE SECCIONES */
+        /* ESTRUCTURA GENERAL */
         section { padding: 6rem 2rem; max-width: 900px; margin: 0 auto; border-bottom: 1px solid var(--light-gray); }
-        
         .section-header { margin-bottom: 3rem; }
-        .section-header h2 { font-size: 2rem; color: var(--accent-green); margin-bottom: 0.5rem; }
-        .section-subtitle { font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem; color: var(--accent-ochre); }
+        .section-header h2 { font-size: 2rem; color: var(--accent-green); }
+        .section-subtitle { font-size: 0.8rem; color: var(--accent-ochre); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
 
-        /* BIO & IDENTIDAD */
-        .identity-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-        }
-        .trait-tag {
-            display: inline-block;
-            padding: 5px 12px;
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            font-size: 0.8rem;
-            margin: 0 5px 5px 0;
-            background: #fff;
-        }
-        .arquetipo { font-family: 'Lora', serif; font-style: italic; color: var(--accent-terracotta); }
-
-        /* PROFESIONAL */
-        .job-item { margin-bottom: 2.5rem; }
-        .job-title { font-weight: 600; font-size: 1.1rem; }
-        .job-company { color: var(--text-secondary); font-size: 0.95rem; }
-        .job-desc { font-size: 0.95rem; margin-top: 0.5rem; }
-
-        /* PROYECTOS & FUTURO */
-        .project-card {
-            background: var(--light-gray);
-            padding: 2rem;
-            border-radius: 4px;
-            border-left: 4px solid var(--accent-green);
-        }
-
-        /* POESÍA / DITOOH */
-        .poetry-section { text-align: center; background-color: #fafafa; }
-        .poem-extract {
-            font-family: 'Lora', serif;
-            font-size: 1.3rem;
-            font-style: italic;
-            color: var(--text-secondary);
-            margin: 2rem 0;
-            line-height: 2;
-        }
-        .pseudonym { font-weight: 700; letter-spacing: 2px; font-size: 0.9rem; }
-
-        /* FE Y FILOSOFÍA */
-        .philosophy-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
-        blockquote {
-            border-left: 3px solid var(--accent-ochre);
-            padding-left: 1.5rem;
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-        }
+        .identity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .card { background: var(--light-gray); padding: 2.5rem; border-radius: 8px; }
+        .trait-tag { display: inline-block; padding: 4px 12px; border: 1px solid #ddd; border-radius: 50px; font-size: 0.8rem; margin-bottom: 8px; background: #fff; }
 
         /* FOOTER */
-        footer {
-            text-align: center;
-            padding: 4rem 2rem;
-            background: var(--text-primary);
-            color: #fff;
-            font-size: 0.9rem;
-        }
-        .footer-links a { color: #aaa; text-decoration: none; margin: 0 10px; transition: color 0.3s; }
-        .footer-links a:hover { color: #fff; }
+        footer { text-align: center; padding: 5rem 2rem; background: var(--text-primary); color: #fff; }
+        .social-nav { margin-bottom: 2rem; }
+        .social-nav a { color: #fff; text-decoration: none; margin: 0 15px; border-bottom: 1px solid transparent; transition: 0.3s; font-size: 0.9rem; }
+        .social-nav a:hover { border-bottom: 1px solid var(--accent-terracotta); }
 
-        /* MEDIA QUERIES */
         @media (max-width: 768px) {
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
             .identity-grid { grid-template-columns: 1fr; }
-            h1 { font-size: 2.8rem; }
-            .nav-links { display: none; } /* Simplificado para móvil */
-        }
-
-        /* ANIMACIÓN */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            .nav-links { display: none; }
         }
     </style>
 </head>
@@ -227,66 +102,48 @@
         <div class="nav-container">
             <a href="#" class="nav-logo">Aldoh S. Flores</a>
             <div class="nav-links">
-                <a href="#bio">Quién Soy</a>
+                <a href="#bio">Identidad</a>
+                <a href="#proposito">Propósito</a>
                 <a href="#profesional">Ingeniería</a>
-                <a href="#proyectos">Futuro</a>
                 <a href="#ditooh">Poesía</a>
-                <a href="#filosofia">Filosofía</a>
+                <a href="#faq">FAQ</a>
             </div>
         </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-content">
-            <div class="hero-roles">Ingeniero · Escritor · Estratega</div>
-            <h1>Aldoh Saúl Flores García</h1>
-            <div class="hero-motto">“El movimiento es mi verdad.”</div>
-            <p style="margin-top: 2rem; font-size: 1rem; opacity: 0.8;">
-                Nodo central de identidad digital
-            </p>
+        <div class="hero-grid">
+            <div class="hero-image">
+                <img src="aldoh-saul-flores-garcia.jpg" alt="Aldoh Saúl Flores García">
+            </div>
+            <div class="hero-text">
+                <span class="hero-roles">Ingeniero · Escritor · Estratega</span>
+                <h1>Aldoh Saúl Flores García</h1>
+                <div class="hero-motto">“El movimiento es mi verdad.”</div>
+                <p style="margin-top: 1.5rem; opacity: 0.7; font-size: 0.9rem;">Archivo maestro de identidad digital.</p>
+            </div>
         </div>
     </header>
 
     <section id="bio">
         <div class="section-header">
-            <span class="section-subtitle">Identidad Profunda</span>
-            <h2>El Sistema Detrás del Nombre</h2>
+            <span class="section-subtitle">Esencia y Sistema</span>
+            <h2>La Identidad Detrás del Nombre</h2>
         </div>
         <div class="identity-grid">
             <div>
-                <p>No busco una vida estática. Mi identidad se construye en la intersección de la <strong>ingeniería industrial</strong> y la <strong>profundidad poética</strong>. Soy un profesional definido por la curiosidad intelectual y la necesidad de coherencia entre lo que pienso y lo que ejecuto.</p>
-                <p>Mi historia no es lineal: he transitado desde la caída académica hasta la reconstrucción disciplinada, entendiendo que el liderazgo sin estructura se quiebra.</p>
-                <div style="margin-top: 2rem;">
+                <p>No busco una vida estática. Mi identidad se construye en la intersección de la <strong>ingeniería industrial</strong> y la <strong>profundidad poética</strong>. Soy un profesional definido por la curiosidad intelectual y la necesidad de coherencia absoluta.</p>
+                <div style="margin-top: 1.5rem;">
                     <span class="trait-tag">ENTP-A</span>
                     <span class="trait-tag">7w8</span>
-                    <span class="trait-tag">Pensamiento Sistémico</span>
+                    <span class="trait-tag">Pugno (Arquetipo)</span>
                 </div>
             </div>
-            <div style="background: #fff; border: 1px solid var(--border-color); padding: 2rem; border-radius: 8px;">
-                <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">Arquetipos en Evolución</h3>
-                <ul style="list-style: none;">
-                    <li style="margin-bottom: 1rem;">
-                        <span class="arquetipo">Truhán (Pasado):</span> Supervivencia a través del humor y el escudo emocional.
-                    </li>
-                    <li>
-                        <span class="arquetipo">Pugno (Presente):</span> Empuje, decisión consciente y acción estratégica.
-                    </li>
-                </ul>
+            <div class="card">
+                <h3 class="serif" style="margin-bottom:1rem;">Propósito / Ikigai</h3>
+                <p style="font-style: italic; font-size: 0.95rem;">"Crecer, crear y servir a través del movimiento, integrando razón, arte y acción para generar impacto real."</p>
             </div>
         </div>
-    </section>
-
-    <section id="proposito">
-        <div class="section-header">
-            <span class="section-subtitle">Ikigai</span>
-            <h2>Propósito de Vida</h2>
-        </div>
-        <blockquote>
-            "Crecer, crear y servir a través del movimiento, integrando razón, arte y acción para generar impacto real en personas y procesos."
-        </blockquote>
-        <p style="margin-top: 2rem;">
-            Mi propósito no se encuentra, se ejecuta. Mi valor reside en ser un puente: optimizo procesos tangibles como ingeniero, mientras exploro las verdades intangibles como escritor.
-        </p>
     </section>
 
     <section id="profesional">
@@ -294,82 +151,48 @@
             <span class="section-subtitle">Rigor Técnico</span>
             <h2>Ingeniería & Estrategia</h2>
         </div>
-        
-        <div class="job-item">
-            <div class="job-title">3C Metrology</div>
-            <div class="job-company">Contrato Indeterminado | Actualidad</div>
-            <p class="job-desc">Gestión estratégica, análisis de sistemas y mejora continua. Aplicación práctica de pensamiento crítico en entornos industriales.</p>
-        </div>
-
-        <div class="job-item">
-            <div class="job-title">Inroads México</div>
-            <div class="job-company">Alumni Graduado con Honores</div>
-            <p class="job-desc">Formación de alto rendimiento completada en todos sus ejes: Liderazgo, Habilidades Digitales y Empleabilidad. Evaluación destacada en resiliencia y pragmatismo.</p>
-        </div>
-
-        <div style="margin-top: 3rem;">
-            <h3 style="font-size: 1rem; margin-bottom: 1rem;">Competencias Nucleares</h3>
-            <span class="trait-tag">Liderazgo Estudiantil</span>
-            <span class="trait-tag">Visión Sistémica</span>
-            <span class="trait-tag">Comunicación Estratégica</span>
-            <span class="trait-tag">Gestión de Crisis</span>
+        <p>Actualmente en <strong>3C Metrology</strong>, aplicando pensamiento crítico en entornos industriales. Egresado con honores de <strong>Inroads México</strong>, tras completar los ejes de liderazgo y habilidades digitales.</p>
+        <div class="card" style="border-left: 4px solid var(--accent-green);">
+            <h3 class="serif">Proyecto Australia 2027</h3>
+            <p style="font-size: 0.95rem; margin-top: 0.5rem;">Hoja de ruta estratégica hacia Brisbane: MBA en Torrens University y expansión profesional global.</p>
         </div>
     </section>
 
-    <section id="proyectos">
-        <div class="section-header">
-            <span class="section-subtitle">Visión 2027</span>
-            <h2>Horizontes en Expansión</h2>
-        </div>
-        <div class="project-card">
-            <h3>Proyecto Australia</h3>
-            <p>Una hoja de ruta estratégica hacia Brisbane. El objetivo no es solo viajar, sino la expansión profesional mediante un MBA en <strong>Torrens University</strong> y la integración en el mercado laboral global.</p>
-            <p><strong>Estado:</strong> En preparación (Inglés C1 + Ahorro de Capital).</p>
-        </div>
-    </section>
-
-    <section id="ditooh" class="poetry-section">
+    <section id="ditooh" style="text-align: center; background: #fafafa; border-radius: 8px;">
         <div class="section-header">
             <span class="section-subtitle">El Arte</span>
             <h2>Ditooh: La Voz Interna</h2>
         </div>
-        <p>Bajo este seudónimo habita mi espacio más honesto. La escritura no es adorno, es herramienta de comprensión.</p>
-        
-        <div class="poem-extract">
-            "No quiero vivir permanentemente en la melancolía,<br>
-            quiero usarla como canal.<br>
-            Yo soy ARTE en proceso."
-        </div>
-        
-        <div style="margin-top: 2rem;">
-            <p class="pseudonym">— DITOOH</p>
-            <p style="font-size: 0.8rem; margin-top: 0.5rem;">Autor del poemario en desarrollo "Yo soy ARTE"</p>
-        </div>
+        <blockquote style="font-size: 1.4rem; margin-bottom: 2rem;">
+            "Escribo para comprender, no para adornar."
+        </blockquote>
+        <p>Autor del proyecto <strong>"Yo soy ARTE"</strong>. Mi poesía es el canal para procesar la realidad desde la melancolía creativa.</p>
     </section>
 
-    <section id="filosofia">
+    <section id="faq">
         <div class="section-header">
-            <span class="section-subtitle">Fundamentos</span>
-            <h2>Fe y Razón</h2>
+            <span class="section-subtitle">Claridad</span>
+            <h2>Preguntas Frecuentes</h2>
         </div>
-        <p>Mi espiritualidad rechaza el dogma ciego. Busco a Dios a través de la lógica de Santo Tomás y la inmanencia de Spinoza. Si Dios existe, existe todo; es la condición necesaria de la realidad.</p>
-        <p>Estudio la <strong>Biblia Cronológica NBLA</strong> no solo como texto sagrado, sino como documento histórico y filosófico.</p>
+        <div style="margin-bottom: 2rem;">
+            <h3 class="serif" style="font-size: 1.1rem; color: var(--accent-terracotta);">¿Quién es Aldoh Saúl Flores García?</h3>
+            <p style="font-size: 0.95rem;">Un Ingeniero Industrial mexicano especializado en estrategia y liderazgo, también reconocido en el ámbito literario como Ditooh.</p>
+        </div>
+        <div>
+            <h3 class="serif" style="font-size: 1.1rem; color: var(--accent-terracotta);">¿A qué se dedica actualmente?</h3>
+            <p style="font-size: 0.95rem;">Se desempeña profesionalmente en 3C Metrology mientras desarrolla su obra poética y prepara su expansión internacional.</p>
+        </div>
     </section>
 
     <footer>
-        <h2>Aldoh Saúl Flores García</h2>
-        <p style="margin: 1rem 0; opacity: 0.7;">"Aquí yace el que nunca se quedó quieto."</p>
-        
-        <div class="footer-links">
-            <a href="https://linkedin.com/in/pon-tu-usuario" target="_blank">LinkedIn</a>
-            <a href="https://instagram.com/pon-tu-usuario" target="_blank">Instagram</a>
-            <a href="mailto:tu-email@ejemplo.com">Contacto</a>
+        <div class="social-nav">
+            <a href="https://www.linkedin.com/in/a-saul-flores-garcia" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/asaulflores" target="_blank">IG Personal</a>
+            <a href="https://www.instagram.com/ditooh.m4lditoh" target="_blank">Ditooh (Poesía)</a>
         </div>
-        
-        <p style="margin-top: 3rem; font-size: 0.7rem; color: #555;">
-            © 2025 Archivo Maestro de Identidad Digital.<br>
-            Optimizado para indexación semántica y Motores de IA.
-        </p>
+        <h2 style="font-size: 1.2rem;">Aldoh Saúl Flores García</h2>
+        <p style="margin-top: 1rem; opacity: 0.6; font-size: 0.8rem;">"Aquí yace el que nunca se quedó quieto."</p>
+        <p style="margin-top: 2rem; font-size: 0.7rem; color: #555;">© 2025 | Nodo Oficial de Identidad Verificada</p>
     </footer>
 
 </body>
